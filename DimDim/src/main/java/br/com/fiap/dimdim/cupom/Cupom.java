@@ -21,7 +21,7 @@ public class Cupom {
     @NotBlank
     String title;
 
-    @Size(min = 10, message = "A descrição deve ter pelo menos 10 caractéres")
+    @Size(min = 10, message = "{cupom.description.size}")
     String description;
 
     @Positive
